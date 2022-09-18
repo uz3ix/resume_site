@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    /* background: #e4d9c7; */
+    margin: 0px;
+    background: rgb(199, 199, 196);
+}
+
+.container{
+    margin: auto;
+    min-width: 760px;
+    max-width: 800px;
+
+}
+
+.card {
+    
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    
+    
+}
+
+.info{
+    background: rgb(214, 216, 154);
+    display: flex;
+    padding: 20px;
+    position: relative;
+    /* font-size: 20px; */
+}
+
+.info img{
+    border-radius: 40px;
+    border: 5px solid rgb(214, 216, 154);
+}
+
+.text{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.text_in{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hobby{
+    background: rgb(133, 186, 152);
+}
+
+.hobby ol{
+    margin-left: 30px;
+}
+
+.vk a img{
+   border: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all.2s;
+   
+
+}
+
+.vk:hover a img{
+    
+    transform: scale(1.5);
+
+}
+
+.kurs h3{
+    font-size: 20px;
+}
+
+.link{
+    border: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 25px;
+}
+
+.link:hover{
+    color: rgb(81, 145, 209);
+    font-size: 30px;
+}
+
+.btn{
+    transition: 1s;
+}
+
+.btn:hover {
+    font-size: 15px;
+}
+
+.work{
+    background: rgb(133, 161, 186);
+}
+
+.connection{
+    background: rgb(175, 133, 186);
+}
+
+.connection h2{
+    padding-bottom: 15px ;
+}
+
+.connection div{
+    padding-bottom: 10px;
+}
+
+.connection ::placeholder{
+    color: blue;
+    font-size: 17px;
+}
+
+.mss{
+    font-size: 20px;
+}
+
+.kurs{
+    background: rgb(208, 172, 138);
+}
+
+input{
+    border: none;
+}
+
+textarea{
+    border: none;
+}
+
+input:hover{
+    background: rgb(219, 245, 241);
+    border: none;
+}
+textarea:hover{
+    background: rgb(219, 245, 241);
+    border: none;
+
+}
+
+input, textarea {outline:none;} 
+input:active, textarea:active {outline:none;} :focus {outline:none;} textarea {resize:none;}
+ textarea {resize:vertical;} textarea {resize:horizontal;}
